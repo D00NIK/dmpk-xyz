@@ -1,0 +1,13 @@
+{{ define "main"}}
+
+<figure>
+  <img src="/img/me.webp" alt="A photo of my face." />
+  <figcaption>My face!</figcaption>
+</figure>
+
+<div class="title">
+  <h1>{{ .Title }}</h1>
+  <span>{{ .Params.Subtitle }}</span>
+</div>
+
+{{ .Content }} {{ end }}

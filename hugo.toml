@@ -1,0 +1,9 @@
+baseURL = 'https://dominikpakula.xyz/'
+languageCode = 'en-us'
+title = 'Dominik Pakuła'
+
+disableKinds = ['taxonomy', 'term']
+
+[markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
