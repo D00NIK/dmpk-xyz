@@ -1,7 +1,6 @@
 baseURL = 'https://dominikpakula.xyz/'
 languageCode = 'en-us'
 title = 'Dominik Pakuła'
-theme = 'simple-hugo'
 
 disableKinds = ['taxonomy', 'term']
 
