@@ -1,9 +1,47 @@
 baseURL = 'https://dominikpakula.xyz/'
 languageCode = 'en-us'
 title = 'Dominik Pakuła'
+theme = 'simple-hugo'
 
 disableKinds = ['taxonomy', 'term']
 
+[params]
+    footerText = 'Built with'
+
+[menu]
+
+    [[menu.main]]
+        name = 'Blog'
+        pageRef = '/blog'
+        weight = 1
+
+    [[menu.main]]
+        name = 'Contact'
+        pageRef = '/contact'
+        weight = 2
+
+    [[menu.footer]]
+        name = "RSS"
+        url = 'https://dominikpakula.xyz/index.xml'
+        weight = 2
+        [[menu.footer.params]]
+            path = 'static/logos/rss.svg'
+
+    [[menu.footer]]
+        name = 'Github'
+        url = 'https://github.com/D00NIK/'
+        weight = 1
+        [[menu.footer.params]]
+          path = 'static/logos/github.svg'
+
+    [[menu.footer]]
+        name = "LinkedIn"
+        url = 'https://www.linkedin.com/in/dominikpakula/'
+        weight = 2
+        [[menu.footer.params]]
+            path = 'static/logos/linkedin.svg'
+
+
 [markup]
-  [markup.goldmark.parser]
-    wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.parser]
+        wrapStandAloneImageWithinParagraph = false
