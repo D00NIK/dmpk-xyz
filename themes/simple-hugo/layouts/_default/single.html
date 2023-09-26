@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="title-container">
+  <h1>{{ .Title }}</h1>
+  {{ if isset .Params "subtitle" }}
+  <span>{{ .Params.Subtitle }}</span>
+  {{ else if isset .Params "date" }}
+  <span>{{ .Date.Format "January 2, 2006" }}</span>
+  {{ end }}
+</div>
+{{ .Content }} {{ end }}
