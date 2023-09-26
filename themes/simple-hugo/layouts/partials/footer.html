@@ -1,11 +1,6 @@
 <footer>
   <div class="footer-container">
-    <span class="footer-text"
-      >{{ .Site.Params.FooterText }}
-      <a href="http://gohugo.io" target="_blank" rel="noopener noreferrer"
-        >Hugo</a
-      ></span
-    >
+    <span class="footer-text">{{ .Site.Params.FooterText | safeHTML }} </span>
     <ul class="footer-socials">
       {{ range.Site.Menus.footer }}
       <li><a href="{{ .URL }}">{{ readFile .Params.Path | safeHTML }}</a></li>

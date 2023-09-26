@@ -6,7 +6,7 @@ theme = 'simple-hugo'
 disableKinds = ['taxonomy', 'term']
 
 [params]
-    footerText = 'Built with'
+    footerText = "Built with <a href='http://gohugo.io' target='_blank'>Hugo</a>"
 
 [menu]
 
