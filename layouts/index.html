@@ -1,7 +1,9 @@
 {{ define "main"}}
 
+{{ $img := resources.Get "img/me.webp" }}
+
 <figure>
-  <img src="/img/me.webp" alt="A photo of my face." />
+  <img src="{{ $img.RelPermalink }}" style="aspect-ratio: {{ $img.Width }} / {{ $img.Height }};" alt="A photo of my face." />
   <figcaption>My face!</figcaption>
 </figure>
 
