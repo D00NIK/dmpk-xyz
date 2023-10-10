@@ -63,7 +63,7 @@ It's literally 1984, but under the hood. They make you feel like they're friendl
 
 So yeah, don't use proprietary software. Let's together build a world of network freedom. Want to know more? Visit [gnu.org/philosophy](https://www.gnu.org/philosophy/philosophy.html). Every question you might have is answered here.
 
-[^1]: There are methods of finding out what a software is doing. You can try analyzing a software and finding out what it is doing, but at the end you can't be 100% sure. Search for a term "reverse engineering".
+[^1]: There are methods of finding out what a software is doing. You can try analyzing a software, but at the end you can't be 100% sure. Search for a term "reverse engineering".
 
 [^2]: You actually can, but it's not that easy. That's because Microsoft built their system functionalities relying on Edge, and they don't want you to get rid of it.
 
