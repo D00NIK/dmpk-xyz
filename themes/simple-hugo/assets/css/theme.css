@@ -177,3 +177,8 @@ footer {
     margin-bottom: 30px;
   }
 }
+
+/* footnotes */
+.footnotes {
+  font-size: 1rem;
+}
