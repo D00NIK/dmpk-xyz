@@ -1,6 +1,6 @@
 ---
 title: "Hey, I'm Dominik."
-subtitle: "Freelancer, College Student"
+subtitle: "Full-stack Web Developer, College Student"
 ---
 
 ### This is my personal blog and sort of portfolio. Here I'll post my thoughts and tutorials about web development and Linux.
