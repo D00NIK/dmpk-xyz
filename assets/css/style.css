@@ -7,13 +7,13 @@ figure {
   border: thin var(--svg-color) solid;
   border-radius: 5%;
 
-  > img {
+  img {
     width: 100%;
     border-radius: 5%;
     margin-bottom: 4px;
   }
 
-  > figcaption {
+  figcaption {
     font-size: smaller;
     font-style: italic;
     text-align: center;

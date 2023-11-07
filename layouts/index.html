@@ -1,9 +1,21 @@
 {{ define "main"}}
 
 {{ $img := resources.Get "img/me.webp" }}
+{{ $placeholder := $img.Fit "30x30 webp"}}
 
 <figure>
-  <img src="{{ $img.RelPermalink }}" style="aspect-ratio: {{ $img.Width }} / {{ $img.Height }};" alt="A photo of my face." />
+  <a href="{{ $img.RelPermalink}}" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="{{ $img.RelPermalink }}" 
+      style="
+        display: block;
+        aspect-ratio: {{ $img.Width }} / {{ $img.Height }};
+        background-image: url('{{$placeholder.RelPermalink}}');
+        background-size: cover;
+      " 
+      alt="A photo of my face."
+    />
+  </a>
   <figcaption>My face!</figcaption>
 </figure>
 
