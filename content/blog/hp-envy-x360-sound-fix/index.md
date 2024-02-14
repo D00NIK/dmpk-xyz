@@ -60,7 +60,7 @@ $ sudo cp -r linux-firmware/cirrus /lib/firmware
 and reboot!
 
 ## End
-![An output example from pulsemixer](pulsemixer-output.png)
+![An output example from pulsemixer](pulsemixer-output.png "An output example from pulsemixer")
 
 That's it; now you should be able to use your speakers! Also, be sure that you do **NOT** have any fixes from various sources in your `/etc/modprobe.d/` or any other changes, like those using `hdajackretask`.
 
