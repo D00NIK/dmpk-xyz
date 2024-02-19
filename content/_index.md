@@ -1,16 +1,21 @@
 ---
 title: "Hey, I'm Dominik."
-subtitle: "Full-stack Web Developer, College Student"
+subtitle: "Cybersecurity student, Low-level/Web enthusiast"
 ---
 
-### This is my personal blog and sort of portfolio. Here I'll post my thoughts and tutorials about web development and Linux.
-
-The reason behind this website's existence is my lack of boldness. I wanted to improve for a long time, so I pushed myself and created this blog. I've always wanted to share my points and know what others may think about them in greater scale.
+### This is my personal blog and sort of portfolio. Here, I'll post my thoughts and tutorials about Cybersecurity, Linux and others.
+I just wanted to have a small piece of the internet to myself. There are many things I want to share with others, from basic information about a computer's workflow to lifestyle tips (which are probably common knowledge, but I had to think through them myself).
 
 ### But maybe you want to know more about me and my interests.
+I'm 18 years old, and I live in Poznań, Poland. My journey with computers and tech as a whole started when I was about 8. I always liked to break stuff and find out how it worked and how I could exploit it. Maybe not in a physical way, but I liked automation (mostly for some grinding games).
 
-I'm 18 (born 2005), currently studying IT and I want to become a web developer. I'm passionate about algorithms and programming in general. I chose the web because it has a lot of different specialties I can become an expert in. As you might've guessed from this site's look and from what you just read, I prefer minimalism, so I went with Linux and started always trying to use as little tools as possible. In the future, I'll may create a special page about my uses.
+It all began in sixth grade (11 years old). I moved on from Scratch (lol) to C++. I did some little programs, probably horrible written. It didn't interest me too much, but eventually I learned some scripting languages like Autohotkey and Lua (which were far more useful for me, as I could exploit those horrible minecraft-like grind games). But enough of that, I also learned a bit of Java, C and of course Python.
 
-### Anyway, feel like home. I won't be formal here, so make yourself comfortable. Do not hesitate to contact me if you have any complaints.
+Then, maybe in 2021, I started learning web development and fell into JavaScript hell. But honestly, it was very, very fun. I now use web knowledge very often, and I think it was unexpectedly (back then) so useful.
 
-Note: This site is JS, ads, google, etcetera free. I built it in a matter of performance and privacy. You're not tracked here!
+From now on, I specialize in web/app security and still like to exploit them. Most often, I use **Python** or Shell, as they can easily do basic tasks. I do not use them for secure apps (as I don't make them) but to automate tasks.
+
+### Anyway, make yourself comfortable. I won't be formal here, so make yourself comfortable.
+Do not hesitate to contact me if you have any complaints.
+
+Note: This site is JS, ads, Google, etcetera free. I built it as a matter of performance and privacy. You're not tracked here!
