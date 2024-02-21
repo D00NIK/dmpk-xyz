@@ -1,0 +1,9 @@
+{{/* https://gist.github.com/clvs7-gh/77b1f50d51d4e238c8482fc31296d4c4 */}}
+
+{{ $attrs := "" }}
+{{ range $k, $v := .Params }}
+  {{ $attrs = printf "%s %s=\"%v\"" $attrs $k $v }}
+{{ end }}
+
+{{ $newTable := printf "<table %s>" $attrs }}
+{{ (replace (.Inner | markdownify) "<table>" $newTable) | safeHTML }}
