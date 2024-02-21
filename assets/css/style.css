@@ -34,3 +34,15 @@ code {
   background-color: #272822;
   color: #f8f8f2;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    color: var(--text-color);
+    border: 1px var(--text-color) solid;
+    text-align: center;
+  
+  }
+}
