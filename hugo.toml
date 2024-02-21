@@ -1,4 +1,4 @@
-baseURL = 'https://d00nik.github.io/dominikpakula-xyz/'
+baseURL = 'https://dmpk.xyz'
 languageCode = 'en-us'
 title = 'Dominik Pakuła'
 theme = 'simple-hugo'
@@ -22,7 +22,7 @@ disableKinds = ['taxonomy', 'term']
 
     [[menu.footer]]
         name = "RSS"
-        url = 'https://dominikpakula.xyz/index.xml'
+        url = 'https://dmpk.xyz/index.xml'
         weight = 2
         [[menu.footer.params]]
             path = 'static/logos/rss.svg'
