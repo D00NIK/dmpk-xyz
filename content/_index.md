@@ -17,5 +17,3 @@ From now on, I specialize in web/app security and still like to exploit them. Mo
 
 ### Anyway, make yourself comfortable. I won't be formal here, so make yourself comfortable.
 Do not hesitate to contact me if you have any complaints.
-
-Note: This site is JS, ads, Google, etcetera free. I built it as a matter of performance and privacy. You're not tracked here!
