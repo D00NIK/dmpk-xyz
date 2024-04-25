@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Dominik Pakuła"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+  name = "Dominik Pakuła"
+  image = "img/me.webp"
+  headline = "Cybersecurity student, Low-level/Web enthusiast"
+  links = [
+    { github = "https://github.com/D00NIK/" },
+    { linkedin = "https://www.linkedin.com/in/dominikpakula/" },
+    { email = "mailto:dominik@dmpk.xyz" },
+  ]
