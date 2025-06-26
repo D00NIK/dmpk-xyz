@@ -29,7 +29,7 @@ a {
     max-height: 0;
     height: fit-content;
     overflow: hidden;
-    transition: max-height 2s ease-out;
+    transition: max-height 1.5s ease-in-out;
 }
 
 #card {
@@ -42,16 +42,7 @@ a {
     background: #1d1f20ea;
     position: relative;
     border-radius: var(--borderWidth);
-    transition: max-height 2s ease-out;
-
-
-    @media (max-height: 636px) {
-        height: 100%;
-    }
-
-    @media (max-height: 710px) {
-        margin-top: 5px;
-    }
+    transition: max-height 1.5s ease-in-out;
 }
 
 #card::after {
@@ -68,10 +59,32 @@ a {
     background-size: 300% 300%;
 }
 
-@media (max-width: 632px) {
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+	}
+	50% {
+        background-position: 100% 50%;
+	}
+	100% {
+        background-position: 0% 50%;
+	}
+}
 
+@media (max-width: 632px) {
     #card {
         margin: var(--borderWidth);
+    }
+}
+
+@media (max-height: 750px) {
+    #card {
+        margin-top: 5px;
+    }
+}
+
+@media (max-height: 750px), (max-width: 632px) {
+    #card {
         border-radius: 0;
         height: calc(100vh - 32px);
     }
@@ -79,16 +92,13 @@ a {
     #card::after {
         border-radius: 0;
     }
-}
 
-@keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    #wrapper {
+        height: inherit;
+    }
+
+    #text-wrapper {
+        height: inherit;
+        overflow: scroll;
+    }
 }
