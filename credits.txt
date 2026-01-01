@@ -1,3 +1,0 @@
-This website is entirely coded by me, except the gradient border, which was created by Mike Schultz (https://codepen.io/mike-schultz)
-
-You're free to use my code however you want.
